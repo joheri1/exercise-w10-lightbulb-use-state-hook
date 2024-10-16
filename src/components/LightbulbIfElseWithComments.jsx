@@ -2,7 +2,7 @@
 import { useState } from 'react'
 
 // Export the Lightbulb component so it can be used in other parts of the app
-export const Lightbulb = () => {
+export const LightbulbIfElseWithComments = () => {
   // Initialize the state variable 'toggle' with a default value of 'lightbulb off'
   // 'setToggle' is the function used to update the value of 'toggle'
   const [toggle, setToggle] = useState('lightbulb off')
@@ -38,4 +38,5 @@ export const Lightbulb = () => {
     </div>
   )
 }
+
 
